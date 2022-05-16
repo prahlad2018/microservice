@@ -1,11 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2022-05-16T01:41:51.168Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="U1FseBGNUMx9qrYScrCp" version="17.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-16T02:17:44.953Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="aqEJq9SpRb3rtao9hZrY" version="17.2.4" type="github">
   <diagram id="7VDaab5Bu1Qn4QvO6lL0" name="Page-1">
-    <mxGraphModel dx="1426" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3gSPd8c6ZF5ZIc29wBwG-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="380" y="320" width="80" height="80" as="geometry" />
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-1" value="MA User&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-2" value="O&amp;amp;M User&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-3" value="Centrify or Cognito Login System" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-4" value="Dashboard&lt;br&gt;Web&lt;br&gt;Application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="80" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="BMYmUnZOC3Kfy9isvbbU-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="120" as="sourcePoint" />
+            <mxPoint x="250" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-6" value="Authenticate&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BMYmUnZOC3Kfy9isvbbU-5">
+          <mxGeometry x="-0.0997" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="BMYmUnZOC3Kfy9isvbbU-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="120" as="sourcePoint" />
+            <mxPoint x="200" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-8" value="token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BMYmUnZOC3Kfy9isvbbU-7">
+          <mxGeometry x="0.0685" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-9" value="API&lt;br&gt;Gateway&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="50" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-10" value="Execute a run book" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-11" value="Run Adhoc Query" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-12" value="Amazon&amp;nbsp;&lt;br&gt;Quick Sight" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="340" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.012;entryY=0.663;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.625;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BMYmUnZOC3Kfy9isvbbU-4" target="BMYmUnZOC3Kfy9isvbbU-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="570" as="sourcePoint" />
+            <mxPoint x="230" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-14" value="View and Edit Reports" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BMYmUnZOC3Kfy9isvbbU-13">
+          <mxGeometry x="-0.1167" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="199" as="sourcePoint" />
+            <mxPoint x="120" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="439.5" as="sourcePoint" />
+            <mxPoint x="120" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-19" value="Create/Edit a run book" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-20" value="Analytics" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="400" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-21" value="Report Generation&amp;nbsp;&lt;br&gt;Service" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-22" value="Notification Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="480" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-23" value="Database (Oracle)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="840" y="340" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BMYmUnZOC3Kfy9isvbbU-24" value="Object&amp;nbsp;&lt;br&gt;Storage (S3)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="860" y="110" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
